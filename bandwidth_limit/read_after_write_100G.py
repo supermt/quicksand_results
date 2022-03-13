@@ -23,9 +23,9 @@ if __name__ == '__main__':
 
     device_list = parameter_dict["storage_paths"]
 
-    io_bandwidth_list=[400,800]
+    io_bandwidth_list=[400,800,4000]
 
-    result_dir = "pm_results_bandwidth/write_read_write/"
+    result_dir = "pm_results_bandwidth_100GB/write_read_write/"
 
     os.system("cgcreate -g blkio:/test_group1")
     for io_bandwidth in io_bandwidth_list:
@@ -37,13 +37,14 @@ if __name__ == '__main__':
 
 
         benchmark_opt =  {
-                "num":20*1000*1000,
+                "num":100*1000*1000,
                 "report_interval_seconds": 1,
                 "value_size":1000,
                 "key_size":16,
                 "subcompactions":20,
-                "reads":10000,
+                "reads":100000,
                 "benchmarks":"fillrandom,readrandom,stats",
+                "histogram":"true",
                 "report_bg_io_stats":"true",
             }
         temp_result_dir = result_dir+str(io_bandwidth) +"/"

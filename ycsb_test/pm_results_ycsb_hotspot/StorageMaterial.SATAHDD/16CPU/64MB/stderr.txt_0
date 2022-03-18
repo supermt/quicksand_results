@@ -1,20 +1,20 @@
 RocksDB:    version 6.4
-Date:       Thu Mar 17 19:56:00 2022
+Date:       Fri Mar 18 18:12:45 2022
 CPU:        40 * Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
 CPUCache:   28160 KB
 terminate called after throwing an instance of 'ycsbc::utils::Exception'
   what():  Unknown request distribution: hotspot
 Received signal 6 (Aborted)
-#0   /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7) [0x7f10e5a93e87] ??	??:0	
-#1   /lib/x86_64-linux-gnu/libc.so.6(abort+0x141) [0x7f10e5a957f1] ??	??:0	
-#2   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0x9d0a9) [0x7f10e64990a9] ??	??:0	
-#3   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa8506) [0x7f10e64a4506] ??	??:0	
-#4   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa8571) [0x7f10e64a4571] ??	??:0	
-#5   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa87f5) [0x7f10e64a47f5] ??	??:0	
-#6   /home/supermt/git/rocksdb_quicksand/db_bench(+0x4da34) [0x55fa0ed28a34] ??	??:0	
-#7   /home/supermt/git/rocksdb_quicksand/db_bench(+0xb03c7) [0x55fa0ed8b3c7] ??	??:0	
-#8   /home/supermt/git/rocksdb_quicksand/db_bench(+0xbad54) [0x55fa0ed95d54] ??	??:0	
-#9   /home/supermt/git/rocksdb_quicksand/db_bench(+0xa3c13) [0x55fa0ed7ec13] ??	??:0	
-#10  /home/supermt/git/rocksdb_quicksand/db_bench(+0x25a4c2) [0x55fa0ef354c2] ??	??:0	
-#11  /lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7f10e70626db] ??	??:0	
-#12  /lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7f10e5b7661f] ??	??:0	
+#0   /lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7) [0x7f0336cd4e87] ??	??:0	
+#1   /lib/x86_64-linux-gnu/libc.so.6(abort+0x141) [0x7f0336cd67f1] ??	??:0	
+#2   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0x9d0a9) [0x7f03376da0a9] ??	??:0	
+#3   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa8506) [0x7f03376e5506] ??	??:0	
+#4   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa8571) [0x7f03376e5571] ??	??:0	
+#5   /usr/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa87f5) [0x7f03376e57f5] ??	??:0	
+#6   /home/supermt/git/rocksdb_quicksand/db_bench(+0x4da34) [0x55f4cd01ca34] ??	??:0	
+#7   /home/supermt/git/rocksdb_quicksand/db_bench(+0xb03c7) [0x55f4cd07f3c7] ??	??:0	
+#8   /home/supermt/git/rocksdb_quicksand/db_bench(+0xbad54) [0x55f4cd089d54] ??	??:0	
+#9   /home/supermt/git/rocksdb_quicksand/db_bench(+0xa3c13) [0x55f4cd072c13] ??	??:0	
+#10  /home/supermt/git/rocksdb_quicksand/db_bench(+0x25a4c2) [0x55f4cd2294c2] ??	??:0	
+#11  /lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7f03382a36db] ??	??:0	
+#12  /lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7f0336db761f] ??	??:0	

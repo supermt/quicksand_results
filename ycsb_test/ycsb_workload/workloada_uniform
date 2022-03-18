@@ -9,6 +9,9 @@
 # batch size tradeoff usage
 #recordcount=10000000
 #operationcount=10000000
+
+recordcount=15000000
+operationcount=10000000
 workload=com.yahoo.ycsb.workloads.CoreWorkload
 
 readallfields=true

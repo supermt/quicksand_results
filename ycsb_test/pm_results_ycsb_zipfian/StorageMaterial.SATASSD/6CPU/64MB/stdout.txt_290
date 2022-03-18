@@ -1,0 +1,435 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+Keys:       16 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    48318382
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    46817.3 MB (estimated)
+FileSize:   23777.3 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+DB path: [/home/supermt/rocksdb_ssd]
+ycsb_load    :      15.647 micros/op 63909 ops/sec;   62.4 MB/s
+Microseconds per write:
+Count: 15000000 Average: 15.6472  StdDev: 163.41
+Min: 2  Median: 3.4352  Max: 5509953
+Percentiles: P50: 3.44 P75: 4.83 P99: 11.73 P99.9: 21.11 P99.99: 232.20
+------------------------------------------------------
+(       1,       2 ]   194479   1.297%   1.297% 
+(       2,       3 ]  5788424  38.589%  39.886% ########
+(       3,       4 ]  3486347  23.242%  63.128% #####
+(       4,       6 ]  4281354  28.542%  91.671% ######
+(       6,      10 ]  1048626   6.991%  98.662% #
+(      10,      15 ]   146331   0.976%  99.637% 
+(      15,      22 ]    45215   0.301%  99.939% 
+(      22,      34 ]     5161   0.034%  99.973% 
+(      34,      51 ]      464   0.003%  99.976% 
+(      51,      76 ]      327   0.002%  99.978% 
+(      76,     110 ]      238   0.002%  99.980% 
+(     110,     170 ]      842   0.006%  99.985% 
+(     170,     250 ]      890   0.006%  99.991% 
+(     250,     380 ]      269   0.002%  99.993% 
+(     380,     580 ]       40   0.000%  99.993% 
+(     580,     870 ]        7   0.000%  99.993% 
+(     870,    1300 ]      726   0.005%  99.998% 
+(    1300,    1900 ]        4   0.000%  99.998% 
+(    1900,    2900 ]        4   0.000%  99.998% 
+(    4400,    6600 ]        2   0.000%  99.998% 
+(    6600,    9900 ]        2   0.000%  99.998% 
+(    9900,   14000 ]        1   0.000%  99.998% 
+(   22000,   33000 ]        2   0.000%  99.998% 
+(   33000,   50000 ]        3   0.000%  99.998% 
+(   50000,   75000 ]        3   0.000%  99.998% 
+(   75000,  110000 ]        7   0.000%  99.998% 
+(  110000,  170000 ]       15   0.000%  99.999% 
+(  170000,  250000 ]       29   0.000%  99.999% 
+(  250000,  380000 ]       81   0.001%  99.999% 
+(  380000,  570000 ]       44   0.000% 100.000% 
+(  570000,  860000 ]        2   0.000% 100.000% 
+(  860000, 1200000 ]       17   0.000% 100.000% 
+( 1200000, 1900000 ]       27   0.000% 100.000% 
+( 1900000, 2900000 ]        7   0.000% 100.000% 
+( 2900000, 4300000 ]        8   0.000% 100.000% 
+( 4300000, 6500000 ]        2   0.000% 100.000% 
+
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+DB path: [/home/supermt/rocksdb_ssd]
+ycsb_run     :       5.590 micros/op 178886 ops/sec;   48.6 MB/s
+Microseconds per read:
+Count: 4998807 Average: 4.5583  StdDev: 84.64
+Min: 0  Median: 3.1403  Max: 152198
+Percentiles: P50: 3.14 P75: 5.61 P99: 14.67 P99.9: 30.03 P99.99: 246.65
+------------------------------------------------------
+[       0,       1 ]   591751  11.838%  11.838% ##
+(       1,       2 ]  1145873  22.923%  34.761% #####
+(       2,       3 ]   660394  13.211%  47.972% ###
+(       3,       4 ]   722842  14.460%  62.432% ###
+(       4,       6 ]   779077  15.585%  78.017% ###
+(       6,      10 ]   886633  17.737%  95.754% ####
+(      10,      15 ]   173841   3.478%  99.232% #
+(      15,      22 ]    28182   0.564%  99.796% 
+(      22,      34 ]     7793   0.156%  99.952% 
+(      34,      51 ]     1202   0.024%  99.976% 
+(      51,      76 ]      141   0.003%  99.978% 
+(      76,     110 ]       36   0.001%  99.979% 
+(     110,     170 ]       87   0.002%  99.981% 
+(     170,     250 ]      475   0.010%  99.990% 
+(     250,     380 ]      416   0.008%  99.999% 
+(     380,     580 ]       55   0.001% 100.000% 
+(    1300,    1900 ]        1   0.000% 100.000% 
+(    1900,    2900 ]        5   0.000% 100.000% 
+(    6600,    9900 ]        1   0.000% 100.000% 
+(  110000,  170000 ]        2   0.000% 100.000% 
+
+Microseconds per update:
+Count: 5001193 Average: 6.6215  StdDev: 591.19
+Min: 2  Median: 3.5561  Max: 1694878
+Percentiles: P50: 3.56 P75: 4.59 P99: 9.89 P99.9: 21.47 P99.99: 267.97
+------------------------------------------------------
+(       1,       2 ]     3617   0.072%   0.072% 
+(       2,       3 ]  1430202  28.597%  28.670% ######
+(       3,       4 ]  1918255  38.356%  67.025% ########
+(       4,       6 ]  1348918  26.972%  93.997% #####
+(       6,      10 ]   257264   5.144%  99.141% #
+(      10,      15 ]    25967   0.519%  99.661% 
+(      15,      22 ]    12942   0.259%  99.919% 
+(      22,      34 ]     2449   0.049%  99.968% 
+(      34,      51 ]      175   0.003%  99.972% 
+(      51,      76 ]      117   0.002%  99.974% 
+(      76,     110 ]       85   0.002%  99.976% 
+(     110,     170 ]      119   0.002%  99.978% 
+(     170,     250 ]      528   0.011%  99.989% 
+(     250,     380 ]      397   0.008%  99.997% 
+(     380,     580 ]       67   0.001%  99.998% 
+(     580,     870 ]        1   0.000%  99.998% 
+(     870,    1300 ]        5   0.000%  99.998% 
+(    1300,    1900 ]        7   0.000%  99.998% 
+(    1900,    2900 ]        4   0.000%  99.999% 
+(    2900,    4400 ]        2   0.000%  99.999% 
+(    4400,    6600 ]        1   0.000%  99.999% 
+(    6600,    9900 ]        1   0.000%  99.999% 
+(   14000,   22000 ]        3   0.000%  99.999% 
+(   22000,   33000 ]        1   0.000%  99.999% 
+(   33000,   50000 ]       17   0.000%  99.999% 
+(   50000,   75000 ]       13   0.000%  99.999% 
+(   75000,  110000 ]        7   0.000%  99.999% 
+(  110000,  170000 ]        9   0.000% 100.000% 
+(  170000,  250000 ]       10   0.000% 100.000% 
+(  250000,  380000 ]        5   0.000% 100.000% 
+(  380000,  570000 ]        3   0.000% 100.000% 
+(  860000, 1200000 ]        1   0.000% 100.000% 
+( 1200000, 1900000 ]        1   0.000% 100.000% 
+
+
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      7/0   507.45 MB   2.0      1.7     0.0      1.7       4.7      3.1       0.0   1.5     31.0     88.4     54.84              8.92        90    0.609   1709K   163K
+  L1     12/1   743.34 MB   2.7      4.0     2.6      1.4       3.5      2.1       0.0   1.4    132.9    117.1     30.50              7.68         8    3.812   4083K   484K
+  L2     22/2    1.24 GB   0.5      2.8     1.0      1.7       2.6      0.9       0.4   2.6     68.1     64.7     41.42              5.77        15    2.761   2840K   141K
+ Sum     41/3    2.47 GB   0.0      8.4     3.6      4.8      10.8      6.1       0.4   3.4     67.6     87.5    126.76             22.37       113    1.122   8633K   790K
+ Int      0/0    0.00 KB   0.0      8.4     3.6      4.8      10.8      6.1       0.4   3.4     67.6     87.5    126.76             22.37       113    1.122   8633K   790K
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      8.4     3.6      4.8       7.6      2.8       0.0   0.0     99.1     90.0     86.53             16.60        33    2.622   8633K   790K
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       3.2      3.2       0.0   0.0      0.0     82.3     40.23              5.77        80    0.503       0      0
+Uptime(secs): 55.9 total, 55.9 interval
+Flush(GB): cumulative 3.234, interval 3.234
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 10.84 GB write, 198.44 MB/s write, 8.37 GB read, 153.27 MB/s read, 126.8 seconds
+Interval compaction: 10.84 GB write, 198.50 MB/s write, 8.37 GB read, 153.32 MB/s read, 126.8 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 26 memtable_compaction, 0 memtable_slowdown, interval 26 total count
+
+** File Read Latency Histogram By Level [default] **
+** Level 0 read latency histogram (micros):
+Count: 1826468 Average: 1.6283  StdDev: 107.33
+Min: 0  Median: 0.9175  Max: 130148
+Percentiles: P50: 0.92 P75: 1.50 P99: 2.96 P99.9: 5.54 P99.99: 12.29
+------------------------------------------------------
+[       0,       1 ]   995324  54.494%  54.494% ###########
+(       1,       2 ]   750396  41.085%  95.579% ########
+(       2,       3 ]    64937   3.555%  99.134% #
+(       3,       4 ]    12178   0.667%  99.801% 
+(       4,       6 ]     2347   0.128%  99.930% 
+(       6,      10 ]      778   0.043%  99.972% 
+(      10,      15 ]      709   0.039% 100.011% 
+(      15,      22 ]      552   0.030% 100.041% 
+(      22,      34 ]       17   0.001% 100.042% 
+(      34,      51 ]       14   0.001% 100.043% 
+(      51,      76 ]       24   0.001% 100.044% 
+(      76,     110 ]       49   0.003% 100.047% 
+(     110,     170 ]       21   0.001% 100.048% 
+(     170,     250 ]       38   0.002% 100.050% 
+(     250,     380 ]       19   0.001% 100.051% 
+(     380,     580 ]       11   0.001% 100.052% 
+(     580,     870 ]        1   0.000% 100.052% 
+(     870,    1300 ]        1   0.000% 100.052% 
+(   50000,   75000 ]        1   0.000% 100.052% 
+(  110000,  170000 ]        1   0.000% 100.052% 
+
+** Level 1 read latency histogram (micros):
+Count: 939111 Average: 1.4236  StdDev: 2.29
+Min: 0  Median: 0.7928  Max: 360
+Percentiles: P50: 0.79 P75: 1.36 P99: 2.86 P99.9: 5.43 P99.99: 13.52
+------------------------------------------------------
+[       0,       1 ]   592311  63.071%  63.071% #############
+(       1,       2 ]   315158  33.559%  96.631% #######
+(       2,       3 ]    25872   2.755%  99.386% #
+(       3,       4 ]     4143   0.441%  99.827% 
+(       4,       6 ]      963   0.103%  99.929% 
+(       6,      10 ]      341   0.036%  99.966% 
+(      10,      15 ]      325   0.035% 100.000% 
+(      15,      22 ]      219   0.023% 100.024% 
+(      22,      34 ]       57   0.006% 100.030% 
+(      34,      51 ]       17   0.002% 100.031% 
+(      51,      76 ]        2   0.000% 100.032% 
+(      76,     110 ]        1   0.000% 100.032% 
+(     110,     170 ]        9   0.001% 100.033% 
+(     170,     250 ]       61   0.006% 100.039% 
+(     250,     380 ]       18   0.002% 100.041% 
+
+** Level 2 read latency histogram (micros):
+Count: 546837 Average: 1.5437  StdDev: 3.22
+Min: 0  Median: 0.9326  Max: 1283
+Percentiles: P50: 0.93 P75: 1.51 P99: 2.92 P99.9: 4.82 P99.99: 7.46
+------------------------------------------------------
+[       0,       1 ]   293166  53.611%  53.611% ###########
+(       1,       2 ]   229500  41.969%  95.580% ########
+(       2,       3 ]    20236   3.701%  99.280% #
+(       3,       4 ]     3099   0.567%  99.847% 
+(       4,       6 ]      704   0.129%  99.976% 
+(       6,      10 ]      212   0.039% 100.015% 
+(      10,      15 ]      167   0.031% 100.045% 
+(      15,      22 ]      145   0.027% 100.072% 
+(      22,      34 ]       43   0.008% 100.080% 
+(      34,      51 ]        8   0.001% 100.081% 
+(      51,      76 ]        1   0.000% 100.081% 
+(      76,     110 ]        4   0.001% 100.082% 
+(     110,     170 ]       32   0.006% 100.088% 
+(     170,     250 ]       20   0.004% 100.091% 
+(     250,     380 ]       10   0.002% 100.093% 
+(     380,     580 ]        3   0.001% 100.094% 
+(     580,     870 ]        1   0.000% 100.094% 
+(     870,    1300 ]        1   0.000% 100.094% 
+
+
+** DB Stats **
+Uptime(secs): 55.9 total, 55.9 interval
+Cumulative writes: 5001K writes, 5001K keys, 5001K commit groups, 1.0 writes per commit group, ingest: 4.84 GB, 88.65 MB/s
+Cumulative WAL: 5001K writes, 0 syncs, 5001193.00 writes per sync, written: 4.84 GB, 88.65 MB/s
+Cumulative stall: 00:00:6.137 H:M:S, 11.0 percent
+Interval writes: 5001K writes, 5001K keys, 5001K commit groups, 1.0 writes per commit group, ingest: 4957.43 MB, 88.68 MB/s
+Interval WAL: 5001K writes, 0 syncs, 5001193.00 writes per sync, written: 4.84 MB, 88.68 MB/s
+Interval stall: 00:00:6.137 H:M:S, 11.0 percent
+
+STATISTICS:
+rocksdb.block.cache.miss COUNT : 13837476
+rocksdb.block.cache.hit COUNT : 57128
+rocksdb.block.cache.add COUNT : 1140496
+rocksdb.block.cache.add.failures COUNT : 0
+rocksdb.block.cache.index.miss COUNT : 0
+rocksdb.block.cache.index.hit COUNT : 0
+rocksdb.block.cache.index.add COUNT : 0
+rocksdb.block.cache.index.bytes.insert COUNT : 0
+rocksdb.block.cache.index.bytes.evict COUNT : 0
+rocksdb.block.cache.filter.miss COUNT : 0
+rocksdb.block.cache.filter.hit COUNT : 0
+rocksdb.block.cache.filter.add COUNT : 0
+rocksdb.block.cache.filter.bytes.insert COUNT : 0
+rocksdb.block.cache.filter.bytes.evict COUNT : 0
+rocksdb.block.cache.data.miss COUNT : 13837476
+rocksdb.block.cache.data.hit COUNT : 57128
+rocksdb.block.cache.data.add COUNT : 1140496
+rocksdb.block.cache.data.bytes.insert COUNT : 4817408368
+rocksdb.block.cache.bytes.read COUNT : 241306896
+rocksdb.block.cache.bytes.write COUNT : 4817408368
+rocksdb.bloom.filter.useful COUNT : 19788191
+rocksdb.bloom.filter.full.positive COUNT : 1158219
+rocksdb.bloom.filter.full.true.positive COUNT : 926158
+rocksdb.bloom.filter.micros COUNT : 0
+rocksdb.persistent.cache.hit COUNT : 0
+rocksdb.persistent.cache.miss COUNT : 0
+rocksdb.sim.block.cache.hit COUNT : 0
+rocksdb.sim.block.cache.miss COUNT : 0
+rocksdb.memtable.hit COUNT : 1856856
+rocksdb.memtable.miss COUNT : 3141951
+rocksdb.l0.hit COUNT : 571650
+rocksdb.l1.hit COUNT : 151405
+rocksdb.l2andup.hit COUNT : 203103
+rocksdb.compaction.key.drop.new COUNT : 802031
+rocksdb.compaction.key.drop.obsolete COUNT : 0
+rocksdb.compaction.key.drop.range_del COUNT : 0
+rocksdb.compaction.key.drop.user COUNT : 0
+rocksdb.compaction.range_del.drop.obsolete COUNT : 0
+rocksdb.compaction.optimized.del.drop.obsolete COUNT : 0
+rocksdb.compaction.cancelled COUNT : 0
+rocksdb.number.keys.written COUNT : 20001193
+rocksdb.number.keys.read COUNT : 4998807
+rocksdb.number.keys.updated COUNT : 0
+rocksdb.bytes.written COUNT : 20789204013
+rocksdb.bytes.read COUNT : 2783014000
+rocksdb.number.db.seek COUNT : 0
+rocksdb.number.db.next COUNT : 0
+rocksdb.number.db.prev COUNT : 0
+rocksdb.number.db.seek.found COUNT : 0
+rocksdb.number.db.next.found COUNT : 0
+rocksdb.number.db.prev.found COUNT : 0
+rocksdb.db.iter.bytes.read COUNT : 0
+rocksdb.no.file.closes COUNT : 0
+rocksdb.no.file.opens COUNT : 683
+rocksdb.no.file.errors COUNT : 0
+rocksdb.l0.slowdown.micros COUNT : 0
+rocksdb.memtable.compaction.micros COUNT : 0
+rocksdb.l0.num.files.stall.micros COUNT : 0
+rocksdb.stall.micros COUNT : 169856799
+rocksdb.db.mutex.wait.micros COUNT : 0
+rocksdb.rate.limit.delay.millis COUNT : 0
+rocksdb.num.iterators COUNT : 0
+rocksdb.number.multiget.get COUNT : 0
+rocksdb.number.multiget.keys.read COUNT : 0
+rocksdb.number.multiget.bytes.read COUNT : 0
+rocksdb.number.deletes.filtered COUNT : 0
+rocksdb.number.merge.failures COUNT : 0
+rocksdb.bloom.filter.prefix.checked COUNT : 0
+rocksdb.bloom.filter.prefix.useful COUNT : 0
+rocksdb.number.reseeks.iteration COUNT : 0
+rocksdb.getupdatessince.calls COUNT : 0
+rocksdb.block.cachecompressed.miss COUNT : 0
+rocksdb.block.cachecompressed.hit COUNT : 0
+rocksdb.block.cachecompressed.add COUNT : 0
+rocksdb.block.cachecompressed.add.failures COUNT : 0
+rocksdb.wal.synced COUNT : 0
+rocksdb.wal.bytes COUNT : 20789204013
+rocksdb.write.self COUNT : 20001193
+rocksdb.write.other COUNT : 0
+rocksdb.write.timeout COUNT : 0
+rocksdb.write.wal COUNT : 20001193
+rocksdb.compact.read.bytes COUNT : 52802311074
+rocksdb.compact.write.bytes COUNT : 52091563532
+rocksdb.flush.write.bytes COUNT : 19033952908
+rocksdb.number.direct.load.table.properties COUNT : 0
+rocksdb.number.superversion_acquires COUNT : 160
+rocksdb.number.superversion_releases COUNT : 3
+rocksdb.number.superversion_cleanups COUNT : 3
+rocksdb.number.block.compressed COUNT : 0
+rocksdb.number.block.decompressed COUNT : 0
+rocksdb.number.block.not_compressed COUNT : 0
+rocksdb.merge.operation.time.nanos COUNT : 0
+rocksdb.filter.operation.time.nanos COUNT : 0
+rocksdb.row.cache.hit COUNT : 0
+rocksdb.row.cache.miss COUNT : 0
+rocksdb.read.amp.estimate.useful.bytes COUNT : 0
+rocksdb.read.amp.total.read.bytes COUNT : 0
+rocksdb.number.rate_limiter.drains COUNT : 0
+rocksdb.number.iter.skip COUNT : 0
+rocksdb.blobdb.num.put COUNT : 0
+rocksdb.blobdb.num.write COUNT : 0
+rocksdb.blobdb.num.get COUNT : 0
+rocksdb.blobdb.num.multiget COUNT : 0
+rocksdb.blobdb.num.seek COUNT : 0
+rocksdb.blobdb.num.next COUNT : 0
+rocksdb.blobdb.num.prev COUNT : 0
+rocksdb.blobdb.num.keys.written COUNT : 0
+rocksdb.blobdb.num.keys.read COUNT : 0
+rocksdb.blobdb.bytes.written COUNT : 0
+rocksdb.blobdb.bytes.read COUNT : 0
+rocksdb.blobdb.write.inlined COUNT : 0
+rocksdb.blobdb.write.inlined.ttl COUNT : 0
+rocksdb.blobdb.write.blob COUNT : 0
+rocksdb.blobdb.write.blob.ttl COUNT : 0
+rocksdb.blobdb.blob.file.bytes.written COUNT : 0
+rocksdb.blobdb.blob.file.bytes.read COUNT : 0
+rocksdb.blobdb.blob.file.synced COUNT : 0
+rocksdb.blobdb.blob.index.expired.count COUNT : 0
+rocksdb.blobdb.blob.index.expired.size COUNT : 0
+rocksdb.blobdb.blob.index.evicted.count COUNT : 0
+rocksdb.blobdb.blob.index.evicted.size COUNT : 0
+rocksdb.blobdb.gc.num.files COUNT : 0
+rocksdb.blobdb.gc.num.new.files COUNT : 0
+rocksdb.blobdb.gc.failures COUNT : 0
+rocksdb.blobdb.gc.num.keys.overwritten COUNT : 0
+rocksdb.blobdb.gc.num.keys.expired COUNT : 0
+rocksdb.blobdb.gc.num.keys.relocated COUNT : 0
+rocksdb.blobdb.gc.bytes.overwritten COUNT : 0
+rocksdb.blobdb.gc.bytes.expired COUNT : 0
+rocksdb.blobdb.gc.bytes.relocated COUNT : 0
+rocksdb.blobdb.fifo.num.files.evicted COUNT : 0
+rocksdb.blobdb.fifo.num.keys.evicted COUNT : 0
+rocksdb.blobdb.fifo.bytes.evicted COUNT : 0
+rocksdb.txn.overhead.mutex.prepare COUNT : 0
+rocksdb.txn.overhead.mutex.old.commit.map COUNT : 0
+rocksdb.txn.overhead.duplicate.key COUNT : 0
+rocksdb.txn.overhead.mutex.snapshot COUNT : 0
+rocksdb.txn.get.tryagain COUNT : 0
+rocksdb.number.multiget.keys.found COUNT : 0
+rocksdb.num.iterator.created COUNT : 0
+rocksdb.num.iterator.deleted COUNT : 0
+rocksdb.block.cache.compression.dict.miss COUNT : 0
+rocksdb.block.cache.compression.dict.hit COUNT : 0
+rocksdb.block.cache.compression.dict.add COUNT : 0
+rocksdb.block.cache.compression.dict.bytes.insert COUNT : 0
+rocksdb.block.cache.compression.dict.bytes.evict COUNT : 0
+rocksdb.db.get.micros P50 : 2.385941 P95 : 9.401267 P99 : 13.900413 P100 : 2575.000000 COUNT : 4998807 SUM : 18493379
+rocksdb.db.write.micros P50 : 2.632098 P95 : 5.902395 P99 : 9.515783 P100 : 5509948.000000 COUNT : 20001193 SUM : 247823598
+rocksdb.compaction.times.micros P50 : 2575675.675676 P95 : 8857142.857143 P99 : 69000000.000000 P100 : 87287687.000000 COUNT : 120 SUM : 539963308
+rocksdb.compaction.times.cpu_micros P50 : 462452.830189 P95 : 1900000.000000 P99 : 9140000.000000 P100 : 13807826.000000 COUNT : 120 SUM : 96682046
+rocksdb.subcompaction.setup.times.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.table.sync.micros P50 : 467400.000000 P95 : 1659268.292683 P99 : 1879170.731707 P100 : 3642751.000000 COUNT : 322 SUM : 193993858
+rocksdb.compaction.outfile.sync.micros P50 : 537029.411765 P95 : 2496666.666667 P99 : 5232250.000000 P100 : 5650331.000000 COUNT : 461 SUM : 408145190
+rocksdb.wal.file.sync.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.manifest.file.sync.micros P50 : 7320.000000 P95 : 329857.142857 P99 : 1502750.000000 P100 : 1570612.000000 COUNT : 454 SUM : 27334125
+rocksdb.table.open.io.micros P50 : 445.469613 P95 : 1819.375000 P99 : 59750.000000 P100 : 192617.000000 COUNT : 683 SUM : 1236324
+rocksdb.db.multiget.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.read.block.compaction.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.read.block.get.micros P50 : 1.221697 P95 : 2.649256 P99 : 3.978647 P100 : 9685.000000 COUNT : 13838842 SUM : 24748145
+rocksdb.write.raw.block.micros P50 : 0.505070 P95 : 0.959633 P99 : 1.007053 P100 : 848858.000000 COUNT : 17099167 SUM : 84492661
+rocksdb.l0.slowdown.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.memtable.compaction.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.num.files.stall.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.hard.rate.limit.delay.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.soft.rate.limit.delay.count P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.numfiles.in.singlecompaction P50 : 3.155405 P95 : 5.208333 P99 : 7.933333 P100 : 8.000000 COUNT : 155 SUM : 456
+rocksdb.db.seek.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.write.stall P50 : 0.563407 P95 : 1193.570539 P99 : 479171.739130 P100 : 5508974.000000 COUNT : 8699 SUM : 169857462
+rocksdb.sst.read.micros P50 : 0.652276 P95 : 1.857842 P99 : 2.586725 P100 : 192125.000000 COUNT : 13840891 SUM : 17707798
+rocksdb.num.subcompactions.scheduled P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.per.read P50 : 913.820302 P95 : 1000.000000 P99 : 1000.000000 P100 : 1000.000000 COUNT : 4998807 SUM : 2783014000
+rocksdb.bytes.per.write P50 : 1040.000000 P95 : 1040.000000 P99 : 1040.000000 P100 : 1040.000000 COUNT : 20001193 SUM : 20789204013
+rocksdb.bytes.per.multiget P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.compressed P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.bytes.decompressed P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.compression.times.nanos P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.decompression.times.nanos P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.read.num.merge_operands P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.key.size P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.value.size P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.write.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.get.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.multiget.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.seek.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.next.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.prev.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.blob.file.write.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.blob.file.read.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.blob.file.sync.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.gc.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.compression.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.blobdb.decompression.micros P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+rocksdb.db.flush.micros P50 : 608666.666667 P95 : 1854791.666667 P99 : 3523000.000000 P100 : 5450944.000000 COUNT : 322 SUM : 249437931
+rocksdb.sst.batch.size P50 : 0.000000 P95 : 0.000000 P99 : 0.000000 P100 : 0.000000 COUNT : 0 SUM : 0
+
